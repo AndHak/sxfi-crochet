@@ -19,7 +19,7 @@ export function Footer() {
             <InstagramIcon className="w-6 h-6" />
             Instagram
           </a>
-          <a href="https://www.tiktok.com/sxfi.crochet"
+          <a href="https://www.tiktok.com/@sxfi.crochet"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 hover:text-purple-400 transition-colors"
