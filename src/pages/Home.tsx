@@ -33,7 +33,7 @@ export default function Home() {
     ]
 
     return (
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col min-h-screen overflow-x-hidden justify-center">
             <Navbar />
             <main className="flex-1 py-8 px-4 md:px-6 lg:px-8 space-y-12">
                 <section className="container mx-auto text-center bg-stone-200 rounded-2xl shadow-lg p-6 max-w-3xl">
