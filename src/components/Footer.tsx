@@ -8,7 +8,7 @@ export function Footer() {
         <div className="text-center md:text-left">
           <p className="text-sm">&copy; 2025 - Sxfi Crochet. Todos los derechos reservados.</p>
         </div>
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-6 flex-col mt-2">
           <a
             href="https://www.instagram.com/sxficrochet"
             target="_blank"
@@ -19,8 +19,13 @@ export function Footer() {
             <InstagramIcon className="w-6 h-6" />
             Instagram
           </a>
-          <a href="">
-            <Icon icon="streamline-flex:tiktok" width="14" height="14"></Icon>
+          <a href="www.tiktok.com/@sxfi.crochet"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 hover:text-purple-400 transition-colors"
+          aria-label="Visita nuestro TikTok">
+            <Icon icon="streamline-flex:tiktok" width="24" height="24"></Icon>
+            TikTok
           </a>
         </div>
       </div>
