@@ -1,4 +1,5 @@
 import { InstagramIcon } from "lucide-react"
+import { Icon } from "@iconify/react"
 
 export function Footer() {
   return (
@@ -17,6 +18,9 @@ export function Footer() {
           >
             <InstagramIcon className="w-6 h-6" />
             Instagram
+          </a>
+          <a href="">
+            <Icon icon="streamline-flex:tiktok" width="14" height="14"></Icon>
           </a>
         </div>
       </div>
